@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="contact.css" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/style_footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      .clear{
+        width: 100%;
+        height: 30px;
+      }
+    </style>
+  </head>
+<body>
+<header>
+  <!--nav bar    -->
+    <div class="nav">
+      <ul>
+          <li><a href="../index.html"><img src="../image/islington.svg" alt=""></a></li>
+          <li><a class="active" href="../About Us/aboutus.html">About Us</a></li>
+          <li><a href="../Programmes/programmes.html">Our Programme</a></li>
+          <li><a href="../Team/Team.html">Team</a></li>
+          <li><a href="../News/news.html">News</a></li>
+          <li><a href="../Contact Us/Contact.html">Contact</a></li>
+          <li><a href="#" class="social">Social Hub</a></li>
+        </ul>
+  </div>
+</header>
+<!--Form Body and Map-->
+<div class="contact-body">
+  <div class="contact-body-form">
+    <div><h1 style="text-align: center;">Contact Us</h1></div>
+    <div class="contact-container">
+      <form action="action_page.php">          
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">  
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name.."> 
+        <label for="Phone">Phone Number</label>
+        <input type="text" id="phone" name="phone" placeholder="Your Phone number..">
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Your Email..">     
+        <label for="foi">Field of Interest</label>
+        <select id="foi" name="foi">
+        <option value="Comp">Select One</option>  
+        <option value="Comp">Computing</option>
+        <option value="Net">Computer Networking and IT security</option>
+        <option value="Multi">Multimedia Technology</option>
+        <option value="Multi">Mobile App Development</option>
+        <option value="Multi">Buisness Administration</option>
+        <option value="Multi">Accounting and Finance</option>
+        <option value="Multi">Master of Buisness Administration</option>
+        <option value="Multi">Master of Science in IT</option>
+        </select>
+        <label for="subject">Your Query</label>
+        <textarea id="subject" name="subject" placeholder="Your Questions.." style="height:200px"></textarea>
+        <div align="right"><input type="submit" value="Submit"></div>
+      </form>
+     </div>
+    </div>
+    <div class="contact-body-map">
+      <div><h2 style="text-align:center ;">Map to the Place</h2></div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9304.58441790659!2d85.32030740801866!3d27.703033840141675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1908434cb3c5%3A0x1fdf1a6d41d2512d!2sIslington%20College!5e0!3m2!1sen!2snp!4v1652802786542!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"</iframe>
+        </div>
+    </div>
+    <div class="clear"></div>
+</body>
+</html>

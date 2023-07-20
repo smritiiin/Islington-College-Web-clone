@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events and News</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/style_footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    *{
+        margin:0;
+        padding:0;
+    }
+    /* News & Events */
+    .ne-container{
+        width:100%;
+        height: max-content;
+        background-color: #fff7f7dc;
+    }
+    .A h2{
+        padding-left: 70px;
+        margin-top: 55px;
+        text-align: left;
+        font-size: 72px
+    }
+    .homeflex{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 50px;
+        margin-bottom: 50px ;
+        text-align: center;
+        align-content: center;
+    }
+    .homeflex h3{
+        text-align: left;
+        padding-top: 25px;
+    }
+    .homeflex img{
+        width: 330px;
+        height: 300px;
+        border-radius: 5px;
+        box-shadow: 5px 8px 8px #656363;
+    }
+    .homeflex p{
+        font-size:medium;
+        text-align: left;
+    }
+    .homeflex p span{
+        color: grey;
+        font-size: small;
+    }
+    .homeflex p a{
+        text-decoration: none;
+        font-size: smaller;
+    }
+    .homeflex p a:link {
+        color: rgb(97, 183, 218);
+    }
+    .homeflex p a:visited {
+        color: green;
+    }
+    .homeflex p a:hover {
+        color: red;
+    }
+    .homeflex p a:active {
+        color: blue;
+    }
+    .n-container marquee{
+        padding-top: 20px;
+        font-size: 50px;
+    }
+    .team-clear{
+        width: 100%;
+        height: 50px;
+    }
+</style>
+</head>
+<body>
+    <!--nav bar    -->
+    <div class="nav">
+        <ul>
+            <li><a href="../index.html"><img src="../image/islington.svg" alt=""></a></li>
+            <li><a class="active" href="../About Us/aboutus.html">About Us</a></li>
+            <li><a href="../Programmes/programmes.html">Our Programme</a></li>
+            <li><a href="../Team/Team.html">Team</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="../Contact Us/Contact.html">Contact</a></li>
+            <li><a href="#" class="social">Social Hub</a></li>
+          </ul>
+    </div>
+
+
+    <div class="ne-container">
+        <div class="n-container">
+            <marquee><h4>Latest News</h4></marquee>
+        <!--News-->
+        <div class="A">
+            <h2>News</h2>
+            <div class="homeflex">
+                <div>
+                    <img src="boba1.jpg">
+                    <h3>New Boba Opens</h3>
+                    <p>One of the most awaited <span>food chain among...</span><a href="#">Click to read more.</a></p>
+                </div>
+                <div>
+                    <img src="AAA.jpg">
+                     <h3>AAA scholarship Oppurtunities</h3>
+                     <p>For the applying <span>students..</span><a href="#">Click to read more.</a></p>
+                </div>
+                <div>
+                    <img src="brit.jpg">
+                    <h3>A historical landmark</h3>
+                    <p>This long standing building represents the<br> <span> students of Islington..</span> <a href="#">Click to read more.</a></p>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="n-container">
+            <marquee><h4>Latest Events</h4></marquee>
+            <!--Events-->
+            <div class="A">
+            <h2>Events</h2>
+            <div class="homeflex">
+            <div>
+               <img src="Love&Thunder.jpg">
+               <h3>Winnerverse: Love and Thunder</h3>
+               <p>The most awaited competition <span>for the..</span><a href="#">Click to read more.</a></p>
+            </div>
+            <div>
+               <img src="SpringCarnival.jpg">
+               <h3>Spring Carnival 2022</h3>
+               <p>High energy and the most waited <span>event of the..</span> <a href="#">Click to read more.</a></p>
+            </div>
+            <div>
+               <img src="The amazing race.jpg">
+               <h3>The Amazing Race</h3>
+               <p>New students, New Experiences, <br> <span>and strength to do</span> <a href="#">Click to read more</a></p>
+            </div>
+       </div>
+     </div>
+        </div>
+        <div class="team-clear">
+
+        </div>
+
+        
+    </div>
+<!--Footer-->
+<footer class="footer">
+    <div class="footer__addr">
+      <div class="footer__logo"><img src="ist.jpg" width="200px" height="200px">
+      <p>Kamal Pokhari, Kathmandu</p>
+      </div>
+      <h2>Contact</h2>
+      <address>
+        <a class="footer__btn" href="mailto:example@gmail.com">Email Us</a>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+      </address>
+    </div>
+    <ul class="footer__nav">
+      <li class="nav__item">
+        <h2 class="nav__title">Quick links</h2>
+        <ul class="nav__ul">
+          <li><a href="#">Home </a></li>
+          <li><a href="#">About Us</a></li>   
+          <li><a href="#">Team</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </li>
+      <li class="nav__item nav__item--extra">
+        <h2 class="nav__title">Programmes</h2>
+        <ul class="nav__ul nav__ul--extra">
+          <li><a href="#">Bachelors in IT<br>Bachelors in Buisness</a></li>
+          <li><a href="#">Prospectus</a></li>
+        </ul>
+      </li>
+      <li class="nav__item">
+        <h2 class="nav__title">Legal</h2>
+        <ul class="nav__ul">
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Use</a></li>      
+          <li><a href="#">Sitemap</a></li>
+        </ul>
+      </li>
+    </ul>
+    <div class="legal">
+      <p>Copyright &copy; . All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

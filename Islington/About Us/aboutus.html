@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About us</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="stylee.css">
+  <link rel="stylesheet" href="../CSS/style_footer.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  
+  <!--nav bar
+    
+            Need to work with links
+    -->
+    <div class="nav">
+      <ul>
+          <li><a href="../index.html"><img src="../image/islington.svg" alt=""></a></li>
+          <li><a class="active" href="#">About Us</a></li>
+          <li><a href="../Programmes/programmes.html">Our Programme</a></li>
+          <li><a href="../Team/Team.html">Team</a></li>
+          <li><a href="../News/news.html">News</a></li>
+          <li><a href="../Contact Us/Contact.html">Contact</a></li>
+          <li><a href="#" class="social">Social Hub</a></li>
+        </ul>
+  </div>
+
+  <div class="why-ick">
+    <div class="why-ick-body">
+        <h1>Why Islington?</h1><br>
+        <p>
+          At islington, we will not only push you and make you work and study harder than you have ever before but also make you enjoy the process, every step of the way. Being an institution with a long history, Islington College has developed many leaders and entrepreneurs. It assures that every student is technically competent. Islington College is a modern and practical education based college dedicated to excellence.
+        </p>
+    </div>
+  </div>
+
+  <div class="what-ick">
+    <div class="what-ick-img">
+      <img src="sammi.png" alt="" height="400px" width="200px">
+    </div>
+    <div class="what-ick-text">
+      <h1>What a Student develop's after studying here?</h1><br>
+      <p>
+        Here at islington, we aim to provide not only academic skills that are required but also some of the most important skills that is required in the modern world, which are team-work among a people with diverse skillset, presentation and public speaking skill, competitiveness and growth mindset. 
+      </p>
+    </div>
+    </div>
+
+    <div class="part">
+        <h1>Be a Part of Excellence</h1>
+        <div class="vid">  
+          <!-- <video controls> -->
+              <!-- <source src="IslingtonAd.mp4" type="video/mp4"> -->
+              
+<iframe width="90%" height="450" margin-left="60px" src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0">
+</iframe>
+
+<!-- <source src="https://www.youtube.com/watch?v=WMWuLk4fT5I"></source> -->
+          <!-- </video> -->
+        </div>
+    </div>
+    
+    <div class="content">
+      <div class="content-left">
+        <h1>Teaching Methodology</h1>
+        <br>
+        <p>
+          We adopt a unique and internationally applied teaching approach, L-T-W (Lecture, Tutorial, and Workshop). L-T-W teaching approach equips students with practical experience derived from their learning in the classroom.
+
+        </p>
+      </div>
+
+      <div class="content-right">
+        <h1>Excess Learning opportunities</h1>
+        <br>
+        <p>
+          We, here at islington, strongly believe that education should be a fun process, where creativeness and curiosity play a big impact on how a student learns. With this notion, we have many fun and exciting skill development programs throughout the year to keep our students engaged in learning and finding themselves. From sports to business plans, we have focused on all round development of the students.
+        </p>
+      </div>
+    </div>
+
+    <div class="state">
+      <h1>State of the Art Infrastructure</h1>
+        <br><br>
+
+        
+       <!--image slider-->
+       <div class="slider">
+        <div id="img">
+          <img src="slide1.JPG" alt="1">
+        </div>
+      </div>
+    </div>
+<!--Footer-->
+<footer class="footer">
+  <div class="footer__addr">
+    <div class="footer__logo"><img src="ist.jpg" width="200px" height="200px">
+    <p>Kamal Pokhari, Kathmandu</p>
+    </div>
+    <h2>Contact</h2>
+    <address>
+      <a class="footer__btn" href="mailto:example@gmail.com">Email Us</a>
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-instagram"></a>
+    </address>
+  </div>
+  <ul class="footer__nav">
+    <li class="nav__item">
+      <h2 class="nav__title">Quick links</h2>
+      <ul class="nav__ul">
+        <li><a href="#">Home </a></li>
+        <li><a href="#">About Us</a></li>   
+        <li><a href="#">Team</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </li>
+    <li class="nav__item nav__item--extra">
+      <h2 class="nav__title">Programmes</h2>
+      <ul class="nav__ul nav__ul--extra">
+        <li><a href="#">Bachelors in IT<br>Bachelors in Buisness</a></li>
+        <li><a href="#">Prospectus</a></li>
+      </ul>
+    </li>
+    <li class="nav__item">
+      <h2 class="nav__title">Legal</h2>
+      <ul class="nav__ul">
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Use</a></li>      
+        <li><a href="#">Sitemap</a></li>
+      </ul>
+    </li>
+  </ul>
+  
+  <div class="legal">
+    <p>Copyright &copy; . All rights reserved.</p>
+
+
+</body>
+<script>
+   //js for image slider
+   var images = ['slide2.jpg','slide3.jpg','slide4.jpg','slide5.jpg','slide6.jpg','slide7.jpg','slide8.jpg','slide9.jpg','slide1.jpg'];
+        var x = 0;
+        var imgs = document.getElementById('img');
+        setInterval(slider, 2000);
+        function slider() {
+            if (x < images.length) {
+                x = x + 1;
+            } else {
+                x = 1;
+            }
+            imgs.innerHTML = "<img src=" + images[x - 1] + ">";
+        }
+</script>
+</html>
+
+

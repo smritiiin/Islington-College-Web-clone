@@ -1,0 +1,626 @@
+
+      *{
+          margin: 0px;
+          padding: 0px;
+      }
+
+    /*Nav bar*/
+    .nav
+    {
+        height: 55px;
+        width: 100%;
+        position: sticky;
+        top: 0ex;
+        z-index: 1;
+    }
+
+    .nav ul {
+      list-style-type: none;
+      overflow: hidden;
+      background-color: #5650a8;
+      width: 100%;
+    }
+
+    .nav li img{
+        padding: 0;
+        height: 30px;
+        width: 270px;
+        margin-left: -50px;
+    }
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      padding: 13px 15px;
+      margin: 0px 17px;
+      text-decoration: none;
+      font-size: 18px;
+      text-transform: uppercase;
+    }
+    
+    li .social:hover{
+        border:#b40e0e solid 1px;
+        color: white;
+        background-color: #b40e0e;
+        border-radius: 7px;
+    }
+    
+    li a:hover {
+      color:#c80909;
+      font-size: 20px;
+      text-decoration: none;
+    }
+
+    /*25 years of Excellence*/
+    .cover img
+    {
+        height: 700px ;
+        width: 100%;
+        box-sizing: border-box;
+        overflow: hidden;
+        display: block;
+    }
+
+    .quote{
+        width: 100%;
+        height: max-content;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 30px;
+        line-height: 45px;
+        font-family: Tangerine;
+    }
+
+    /*Apply Now*/
+    .apply{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+
+    }
+    .apply button{
+        height: 50px;
+        width: 160px;
+        font-size: 23px;
+        margin-left: 42%;
+        background-color: #5650a8;
+        color: rgb(255, 255, 254);
+        border-radius: 10px;
+        border-color:#5650a8;
+        box-shadow: 5px 8px 8px #656363;
+        margin-top: 20px;
+    }
+
+    .apply button:hover{
+        color:#c80909 ;
+        font-size: 20px;
+        background-color: #5650a8;
+        border-color: #5650a8;
+        
+    }
+
+    .apply button:active {
+        background-color: #5650a8;
+        border-color:#5650a8 ;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+
+    /*video*/
+    .video-main{
+        height: 900px;
+        margin-top: 40px;
+    }
+    .vid video{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .typewriter h1 {
+        font-family:'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: #dd2c2c;
+        letter-spacing: .17em;
+        margin: 0 auto;
+        padding-left: 30px;
+        overflow: hidden;
+        white-space: nowrap;
+        border-right: .17em solid pink;
+        animation: typing 5.5s steps(30, end), blinking-cursor .5s step-end infinite;
+      }
+      
+      @keyframes typing {
+        from {
+          width: 0
+        }
+        to {
+          width: 100%
+        }
+      }
+      
+      @keyframes blinking-cursor {
+        from,
+        to {
+          border-color: transparent
+        }
+        50% {
+          border-color: pink;
+        }
+      }
+      .typewriter2 h1 {
+        font-family:'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+        letter-spacing: .17em;
+        margin: 0 auto;
+        overflow: hidden;
+        padding-left: 60px;
+        white-space: nowrap;
+        animation: typing 5.5s steps(30, end), step-end infinite;
+      }
+      
+      @keyframes typing {
+        from {
+          width: 0
+        }
+        to {
+          width: 100%
+        }
+      }
+
+    /*horizontal section for student number and stuffs*/
+    /*font milauna bakiii xa*/
+    .details{
+        border: 1px solid #b7ffd3;
+        height: 160px;
+        width: 100%;
+        box-sizing: border-box;
+        overflow: hidden;
+        display: block;
+        background-color: #5650a8;
+        margin-top: 30px;
+        padding-top: 30px;
+        color: white;
+    }
+
+    .details table td{
+        padding: 10px 2%;
+        text-align: center;
+        width: 300px;
+    }
+
+    .details #first{
+        font-size: 45px;
+        font-weight: bolder;
+    }
+
+    .details #second{
+        font-size:20px ;
+        font-weight:500;
+    }
+
+    /*photo and contents (first)*/
+    .main
+    {
+        height: fit-content;
+        margin-left: 45px;
+        margin-top: 70px;
+    }
+    
+    .main-first{
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    .main-first img{
+        height: 400px;
+        width: 50%;
+        box-shadow: #656363 2px 3px 5px;
+        float: left;
+        margin-right: 50px;
+        border-radius: 5px;
+    }
+
+    .main-first .text{
+        text-align: center;
+        padding: 10% 5%;
+    }
+
+
+
+    /*photo and contents (second)*/
+    .main-second{
+        box-sizing: border-box;
+        overflow: hidden;
+        margin-top: 50px;
+    }
+
+    .main-second .text{
+        text-align: center;
+        padding: 10% 5%;
+        width: 50%;
+        float: left;
+        box-sizing: border-box;
+        margin-right: 50px;
+    }
+
+    .main-second img{
+        height: 400px;
+        width: 41%;
+        float: left;
+        box-sizing: border-box;
+        box-shadow: #656363 2px 3px 5px;
+        border-radius: 5px;
+    }
+
+    /*Course and infrasturcutre contents arranged in table*/
+
+    .course, .infra{
+        margin-top: 50px;
+        margin-left: 17px;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    /*css for the text overlay --used in both courses and infra */
+    .overlay
+    {
+        position: relative;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5);
+        color: #f1f1f1;
+        padding-top: 30px;
+        height: 250px;
+        width: 100%;
+        transition: .5s ;
+        opacity:0;
+        margin-top: -250px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    
+    .course h1{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .course .name{
+        padding-top: 20px;
+        text-align: center;
+    }
+    .course table img{
+        display: block;
+        height: 250px;
+        width: 350px;
+        box-shadow: 3px 3px 5px #888888;
+    }
+
+    .course .overlay p{
+        width: 350px;
+        padding: 25px;
+        text-align: center;
+    }
+    .course td{
+        padding: 0px 20px;
+        margin-bottom: 20px;
+    }
+
+    .course table .overlay
+    {
+        display: none;
+    }
+
+    .course td:hover .overlay
+    {
+        display: block;
+        opacity: 1;
+    }
+
+    /*button for the course*/
+    .explore a{
+        text-decoration: none;
+        color: blue;
+    }
+    .explore a:hover{
+        color: black
+    }
+    .explore button{
+        float: right;
+        margin-right: 25px;
+        height: 30px;
+        width: 170px;
+        border-radius: 3px;
+        background-color: #1726cfb5;
+        font-size: 22px;    
+        color: #faf0f0;
+        border:#1726cfb5 ;
+    }
+
+    /*CSS for the infrasture (image and content)*/
+    .infra table img{
+        height: 250px;
+        width: 350px;
+        display: block;
+        box-shadow: 3px 3px 5px #888888;
+        border-radius: 5px;
+    }
+
+    .infra td{
+        padding: 10px 20px;
+    }
+
+    .infra table .overlay
+    {
+        display: none;
+    }
+
+    .infra td:hover .overlay
+    {
+        display: block;
+        opacity: 1;
+    }
+
+    .infra h1{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .infra .overlay p{
+        width: 350px;
+        padding: 25px;
+        text-align: center;
+    }
+
+    .infra .name
+    {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .explore {
+        text-align: center;
+        font-size: 17px;
+    }
+    /*External Partnership ---London Met. Uni*/
+    .uni{
+        height: 550px;
+        width: 100%;
+        box-sizing: border-box;
+        overflow: hidden;
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .uni .text a{
+        text-decoration:none;
+        color: blue;
+    }
+    .uni .text a:hover{
+        color: black;
+    }
+    .uni .text
+    {
+        padding-top: 80px;
+    }
+
+    .uni .text p{
+        text-align: left;
+        font-size: 17px;
+        word-spacing: 4px;
+        width: 85%;
+    }
+
+    /*LMU builing*/
+
+    .uni .building{
+        flex: 30%;
+    }
+
+    .uni .building img{
+        height: 500px;
+        width: 400px;
+        margin: 40px 0px 10px 100px;
+        box-shadow: 3px 3px 5px #888888;
+        border-radius: 5px;
+    }
+  
+    
+    /*London Metropolitian Logo*/
+    .uni .logo img{
+        height: 80px;
+        width: auto;
+    }
+
+    .uni .text
+    {
+        width: 40%;
+        flex: 45%;
+    }
+
+
+    /*Learn The Islington experience*/
+    .experience{
+        height: 850px;
+        margin-bottom: 50px;
+    }
+    
+
+    .experience img{
+        height: 350px;
+        width: 300px;
+    }
+
+    .last
+    {
+        height: 120px;
+        width: 100%;
+        box-sizing: border-box;
+        overflow: hidden;
+        display: block;
+        margin-top: 60px;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        padding: 10px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .last .left
+    {
+        width: 45%;
+        flex: 40%;
+        padding-left: 30px;
+        border-right: 1px solid black;
+    }
+
+    /*Need to work with the border*/
+    .last .right
+    {
+        width: 45%;
+        flex: 40%;
+       padding: 10px;
+    }
+
+
+
+
+    /*Student Experience*/
+    .experience
+    {
+        height: 800px;
+        box-sizing: border-box;
+        overflow: hidden;
+        margin-left: 25px;
+        margin-top: 70px;
+        text-align: center;
+    }
+
+    .exp-first{
+        box-sizing: border-box;
+        overflow: hidden;
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+
+    .exp-first img{
+        height: 340px;
+        width: 240px;
+        margin-left: 90px;
+        box-shadow: #656363 2px 3px 5px;
+        float: left;
+        margin-right: 30px;
+        border-radius: 2px;
+    }
+
+    .exp-first .text{
+        text-align: left;
+        padding: 120px 25px 0 0;
+        font-size: 20px;
+    }
+    /*photo and contents (second)*/
+    .exp-second{
+        box-sizing: border-box;
+        overflow: hidden;
+        margin-top: 0px;
+    }
+    .exp-second .text h1{
+        padding-bottom: 35px;
+    }
+    .exp-second .text{
+        text-align: center;
+        padding-top: 40px;
+        padding-left: 40px;
+        width: 65%;
+        float: left;
+        text-align: right;
+        margin-right: 50px;
+        font-size: 20px;
+    }
+
+    .exp-second img{
+        height: 340px;
+        width: 295px;
+        margin-left: 0px;
+        box-shadow: #656363 2px 3px 5px;
+        float: left;
+        margin-right: 0px;
+        border-radius: 2px;
+    }
+
+    .vision{
+        margin-bottom: 50px;
+        margin-top: 30px;
+    }
+
+    .vision h1{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .vision p{
+        text-align: center;
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    
+    .reveal{
+        position: relative;
+        transform: translateY(150px);
+        opacity: 0;
+        transition: 2s all ease;
+      }
+      .reveal.active{
+        transform: translateY(0);
+        opacity: 1;
+      }
+      #testbutton {
+        width: 160px;
+        height:70px;
+        border-radius:180px;
+        position:relative;
+        left:calc(50% - 75px);
+        top:calc(50% - 25px);
+        background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+        cursor:pointer;
+        line-height:12px;
+      }
+      #testbutton:before {
+        content:'';
+        z-index:1;
+        position:absolute;
+        display:block;
+        width:80%;
+        height:70%;
+        top:15%;
+        left:10%;
+        transition: 0.3s opacity ease-in-out;
+        filter:blur(15px);
+        opacity:0;
+        background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+      }
+      #testbutton:hover:before {
+        opacity:1;
+        transition: 0.3s opacity ease-in-out;
+        filter:blur(25px);
+        background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);  
+      }
+      #testbutton:after {
+        content:'Take a VR tour';
+        text-align:center;
+        line-height:50px;
+        font-size:18px;
+        color:rgba(235,235,235,1);
+        font-weight:bold;
+        z-index:5;
+        position:absolute;
+        display:block;
+        border-radius:180px;
+        width:92%;
+        height:80%;
+        top:10%;
+        left:4%;  
+        background-color:rgb(19, 20, 22);
+      }
